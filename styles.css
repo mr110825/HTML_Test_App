@@ -7,3 +7,22 @@ body {
 #profile-image {
     float: right; /* 画像を右に配置*/
 }
+
+.profile-list {
+    margin-top: 100px; /* 上部の余白を100pxに調整 */
+
+    div{
+        display: flex; /* 説明文を横並びにする */
+    }
+    dt {
+        font-weight: bold; /* 太字にする */
+        line-height: 30px; /* 行の高さを30pxに調整 */
+    }
+    dt::after {
+        content:"：" /* 項目と説明文の間に：を挿入 */
+    }
+    dd {
+        margin-left: 1em; /* 説明文の左に余白を1emに調整 */
+        line-height: 30px; /* 行の高さを30pxに調整 */
+    }
+}
