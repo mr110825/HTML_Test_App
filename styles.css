@@ -1,3 +1,9 @@
+body {
+    background-color: #edb6acd9; /* 背景色を薄いオレンジに変更 */
+    max-width: 700px; /* bodyの最大幅を700pxに調整 */
+    margin: auto; /* CSSの要素の外側の余白（マージン）を自動的に調整 */
+}
+
 #profile-image {
-    float: right;
+    float: right; /* 画像を右に配置*/
 }
