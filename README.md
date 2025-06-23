@@ -1,0 +1,2 @@
+# HTML_Test_App
+RareTECHハッカソン入門コースの事前テスト提出用のリポジトリ
